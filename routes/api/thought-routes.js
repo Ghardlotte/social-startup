@@ -13,7 +13,7 @@ const {
 //check this to get working?
 router.route('/:userId').post(addThought);
 
-//get all thoughts and create thought
+//get all thoughts
 router
   .route('/:userId/:thoughtId')
   .put(addReaction)
